@@ -1,0 +1,141 @@
+byte valor = valor * 2a;
+Palavra inválida.
+Último estado visitado: 25
+
+short 5v= 2 + 3;
+Palavra inválida.
+Último estado visitado: 31
+
+int v = 5 + 2;
+Palavra válida.
+
+long 6 = 3 + 12;
+Palavra inválida.
+Último estado visitado: 31
+
+byte v = v /*aaa***/ + 2 = v ++ 1;
+Palavra inválida.
+Último estado visitado: 26
+
+short /*aaa***/ v = 5 / v + 2;
+Palavra válida.
+
+int //   aaa   v + 2;
+Palavra inválida.
+Último estado visitado: 32
+
+long v =    /*aaa***/ v + 2;
+Palavra válida.
+
+byte v =     v /*aaa***/ + 2;
+Palavra válida.
+
+short v = v + 2 = v ++ 1;
+Palavra inválida.
+Último estado visitado: 26
+
+int v =     v  + /*aaa***/ + 2;
+Palavra inválida.
+Último estado visitado: 20
+
+long v =     v + 2    /*aaa***/;
+Palavra válida.
+
+byte v === + 3 -5 * 4;
+Palavra inválida.
+Último estado visitado: 10
+
+short v =    v ++ 2;
+Palavra inválida.
+Último estado visitado: 20
+
+int v =    v + 2;
+Palavra válida.
+
+long v =    v + 2 +;
+Palavra inválida.
+Último estado visitado: 20
+
+byte v =    v /+ 2;
+Palavra inválida.
+Último estado visitado: 17
+
+short v = 5 + 2v4;
+Palavra inválida.
+Último estado visitado: 25
+
+int v /*aaa***/ = v + 2 = v ++ 1;
+Palavra inválida.
+Último estado visitado: 26
+
+long v = 5 + 2v3a;
+Palavra inválida.
+Último estado visitado: 25
+
+byte v = 5 + 2v3a /*aaa***/;
+Palavra inválida.
+Último estado visitado: 25
+
+short v = 5 + 2 + v2a;
+Palavra válida.
+
+int v = 5 + 2 + v2a // aaa;
+Palavra inválida.
+Último estado visitado: 21
+
+long v = 5 + 2 + 3v2a;
+Palavra inválida.
+Último estado visitado: 25
+
+byte v v = 6 - 4;
+Palavra inválida.
+Último estado visitado: 6
+
+short /*aaa***/;
+Palavra inválida.
+Último estado visitado: 31
+
+int v /=/ v;
+Palavra inválida.
+Último estado visitado: 7
+
+long 2 + 2 = 4;
+Palavra inválida.
+Último estado visitado: 31
+
+byte v + 2 = 4;
+Palavra inválida.
+Último estado visitado: 6
+
+short v /* /- v4;
+Palavra inválida.
+Último estado visitado: 8
+
+int //;
+Palavra inválida.
+Último estado visitado: 32
+
+/*var*/ int var = 5 + 4;
+Palavra válida.
+
+int /*var*/ var = 5 + 4;
+Palavra válida.
+
+int var /*var*/ = 5 + 4;
+Palavra válida.
+
+int var = /*var*/ 5 + 4;
+Palavra válida.
+
+int var = 5 /*var*/ + 4;
+Palavra válida.
+
+int var = 5 + /*var*/ 4;
+Palavra válida.
+
+int var = 5 + 4 /*var*/;
+Palavra válida.
+
+int var = 5 + 4; /*var*/
+Palavra válida.
+
